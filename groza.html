@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="rus">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="assets/css/style.css"> <!-- подключение цсс -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> <!--шрифт-->
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"><!--шрифт-->
+
+<title>Green-Net</title>
+<!--Стиль текста-->
+<style>
+   @font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(assets/font/1.ttf); /* Путь к файлу со шрифтом */
+   }
+   h1 {
+    font-family: Pompadur, 'Comic Sans MS';
+   }
+   h2 {
+    font-family: Pompadur, 'Comic Sans MS';
+   }
+   h3 {
+    font-family: Pompadur, 'Comic Sans MS';
+   }
+   
+   <!--Style spisok-->
+   .border {
+list-style: none;
+padding: 0;
+}
+.border li {
+font-family: "Trebuchet MS", "Lucida Sans";
+padding: 7px 20px;
+margin-bottom: 10px;
+border-radius: 5px;
+border-left: 10px solid #f05d22; 
+box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+font-size: 20px;
+letter-spacing: 2px;
+transition: 0.3s all linear;
+}
+.border li:nth-child(2){border-color: #8bc63e;}
+.border li:nth-child(3){border-color: #fcba30;}
+.border li:nth-child(4){border-color: #1ccfc9;}
+.border li:nth-child(5){border-color: #493224;}
+.border li:hover {border-left: 10px solid transparent;}
+.border li:nth-child(1):hover {border-right: 10px solid #f05d22;}
+.border li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+.border li:nth-child(3):hover {border-right: 10px solid #fcba30;}
+.border li:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
+.border li:nth-child(5):hover {border-right: 10px solid #493224;}
+   
+</style>
+</head>
+<body>
+
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__logo"><img src="assets/images/logo1.png"></div>
+			
+			<nav class="nav">
+				<a class="nav__link" href="glavnaya.html">Головна</a>
+				<a class="nav__link" href="index.html">Про нас</a>
+				<a class="nav__link" href="tarif.html">Тарифи</a>
+				<a class="nav__link" href="uslugi.html">Послуги</a>
+				<a class="nav__link" href="tex.html">Техпідтримка</a>
+				<a class="nav__link" href="groza.html">Гроза</a>
+				<a class="nav__link" href="dokument.html">Документи</a>
+			</nav>
+			
+			<!--clock-->
+<div></div>
+			
+		</div>
+	</div>
+</header>
+
+<!-- заголовок страницы -->
+<div class="intro">
+	<div class="container">
+	<h1 class="intro__title"><!--animation groza--><div class="area">Гроза⚡</div> </h1>
+	</div>
+	
+	<!--основной текст страницы-->
+	<div class="container2">
+	<h2 class="intro__subtitle">
+	<p>
+	<img src="assets/images/groza.jpg" width="800" height="300" alt border="0">
+	</p>
+	
+	<p>
+	Необхідно дотримуватися правил користування мережею під час грози:
+	</p>
+	<ul class="border">
+	<li>відключіть кабель від мережевої карти комп'ютера (маршрутизатора, бездротової точки і ін.);</li>
+	<li>відключіть мережний кабель живлення від комп'ютера;</li>
+	<li>якщо антена підключена до ТВ-тюнера комп'ютера - вимкніть і її.</li>
+	</ul>
+	<p>
+	Якщо ви надовго залишаєте будинок, вимкніть мережевий кабель і кабель 220V від системного блоку.
+	</p>
+	
+	<!--Погодник-->
+	<center>
+	<iframe width="200" height="240"  scrolling="no" src="https://pogodnik.com/informer/daily"> Подивитися прогноз погоди на <a  href="https://pogodnik.com"> <img  src="https://pogodnik.com/images/prognoz-pogody-200x240.png"> </a> </iframe>
+	</center>
+	
+	<br>
+	<p>
+	Гроза є некерованих стихійних природним явищем.
+Вона здатна вивести з ладу велику частину пристроїв мережі.
+Грозовий розряд між хмарами в прилеглому районі здатний вивести з ладу велику частину мережевої апаратури і комп'ютерів.
+Це відбувається в момент розряду через різке підвищення напруги в лініях електропередачі внаслідок електромагнітної індукції і струмів розтікання.
+При цьому комп'ютер користувача наражається на ризик, як з боку підключеного проводу комп'ютерної мережі, так і з боку електроживлення.
+	</p>
+	<br>
+	<p>
+	<b>Попередження!</b>Під час грози використання мережі <b>КАТЕГОРИЧНО ЗАБОРОНЕНО!</b>
+	На час грози необхідно відключати кабелю локальної мережі та мережі 200V від комп'ютера.
+	<b>За пошкодження комп'ютера адміністрація мережі відповідальності не несе</b>
+	</p>
+	
+	</h2>
+	</div>
+</div>
+
+
+
+<!--JavaScript-->
+<script src="script.js"></script>
+
+</body>
+</html>
